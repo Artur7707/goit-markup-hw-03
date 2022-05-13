@@ -158,6 +158,10 @@ p {
 
 /* Features */
 
+.section.feature {
+    padding-bottom: 0;
+}
+
 .feature-list {
     display: flex;
 }
@@ -168,6 +172,7 @@ p {
 
 .feature-list .item {
     width: 270px;
+    height: 101px;
 }
 
 /* Examples */
@@ -184,8 +189,12 @@ p {
 
 /* Hero index.html */
 
+
 .hero {
+    display: flex;
+    height: 600px;
     text-align: center;
+    align-items: center;
     background-color: var(--background-color);
 }
 
@@ -319,6 +328,10 @@ p {
 }
 
 /* Team */
+
+.section.team {
+    background-color: var(--button-background);
+}
 
 .team-list {
     display: flex;
