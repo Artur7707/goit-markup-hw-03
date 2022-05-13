@@ -322,10 +322,7 @@ p {
 
 .team-list {
     display: flex;
-    }
-
-.team-list .item:not(:last-child){
-    margin-right: 30px;
+    justify-content: space-between;
 }
 
 .container.team {
@@ -334,7 +331,6 @@ p {
 
 .team-photo{
     margin-bottom: 30px;
-    
 }
 
 .team-member {
